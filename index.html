@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle">Aim Enterprise — Creative & Digital Marketing Agency</title>
+  <meta id="pageDescription" name="description"
+    content="Aim Enterprise is a full-service creative & marketing agency delivering social media, performance marketing, commercial production, and SEO that drive real growth.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="Styles/style.css">
+</head>
+
+<body>
+
+  <header id="siteHeader">
+    <nav class="wrap">
+      <a href="#top" class="brand">
+        <img id="logoImg" src="" alt="">
+      </a>
+      <ul class="nav-links" id="navLinks"></ul>
+      <a href="#contact" class="btn" id="headerCta">Start a project</a>
+      <button class="menu-toggle" aria-label="Menu">☰</button>
+    </nav>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div class="hero-copy reveal in">
+        <span class="eyebrow" id="heroEyebrow"></span>
+        <h1 id="heroHeading"></h1>
+        <p class="lede" id="heroParagraph"></p>
+        <div class="hero-ctas">
+          <a href="#work" class="btn btn-solid" id="heroPrimaryCta"></a>
+          <a href="#contact" class="btn" id="heroSecondaryCta"></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <svg class="aim-svg" viewBox="0 0 200 200" aria-hidden="true">
+          <path class="bracket" d="M20,60 L20,20 L60,20" stroke="var(--cyan)" stroke-width="4" fill="none"
+            stroke-linecap="square" />
+          <path class="bracket" d="M140,20 L180,20 L180,60" stroke="var(--cyan)" stroke-width="4" fill="none"
+            stroke-linecap="square" />
+          <path class="bracket" d="M180,140 L180,180 L140,180" stroke="var(--cyan)" stroke-width="4" fill="none"
+            stroke-linecap="square" />
+          <path class="bracket" d="M60,180 L20,180 L20,140" stroke="var(--cyan)" stroke-width="4" fill="none"
+            stroke-linecap="square" />
+          <line class="crosshair" x1="100" y1="55" x2="100" y2="80" stroke="var(--white)" stroke-width="3"
+            stroke-opacity="0.5" />
+          <line class="crosshair" x1="100" y1="120" x2="100" y2="145" stroke="var(--white)" stroke-width="3"
+            stroke-opacity="0.5" />
+          <line class="crosshair" x1="55" y1="100" x2="80" y2="100" stroke="var(--white)" stroke-width="3"
+            stroke-opacity="0.5" />
+          <line class="crosshair" x1="120" y1="100" x2="145" y2="100" stroke="var(--white)" stroke-width="3"
+            stroke-opacity="0.5" />
+          <path d="M85,100 L100,85 L115,100 L100,115 Z" fill="var(--navy-2)" />
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marqueeTrack"></div>
+  </div>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2 id="servicesHeading"></h2>
+        <p id="servicesParagraph"></p>
+      </div>
+      <div class="services-grid reveal" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <section class="section approach" id="approach">
+    <div class="wrap">
+      <div class="section-head light reveal">
+        <h2 id="approachHeading"></h2>
+        <p id="approachParagraph"></p>
+      </div>
+      <div class="approach-steps reveal" id="approachSteps"></div>
+    </div>
+  </section>
+
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2 id="workHeading"></h2>
+        <p id="workParagraph"></p>
+      </div>
+      <div class="work-grid reveal" id="workGrid"></div>
+      <p class="work-note" id="workNote"></p>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="wrap">
+      <div class="stats-grid reveal" id="statsGrid"></div>
+    </div>
+  </section>
+
+  <section class="cta-band" id="contact">
+    <div class="wrap reveal">
+      <span class="eyebrow" style="justify-content:center;" id="ctaEyebrow"></span>
+      <h2 id="ctaHeading"></h2>
+      <div class="btns">
+        <a href="mailto:hello@aimenterprise.com" class="btn btn-solid" id="ctaEmailBtn"></a>
+        <a href="tel:+00000000000" class="btn" id="ctaCallBtn"></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img id="footerLogoImg" src="" alt="">
+          <p id="footerTagline"></p>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <div id="footerCompanyLinks"></div>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <div id="footerContactLinks"></div>
+        </div>
+        <div class="footer-col">
+          <h5>Follow</h5>
+          <div id="footerSocialLinks"></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span id="footerCopyright"></span>
+        <span id="footerTagRight"></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="Script/script.js"></script>
+</body>
+
+</html>
